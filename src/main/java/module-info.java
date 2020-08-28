@@ -7,4 +7,6 @@ open module com.demo.app {
     requires spring.cloud.kubernetes.core;
     requires spring.cloud.kubernetes.config;
     requires spring.cloud.starter.kubernetes.config;
+    requires com.fasterxml.jackson.databind;
+
 }
